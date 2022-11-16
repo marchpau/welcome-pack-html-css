@@ -8665,4 +8665,22 @@ footer {
   height: 100%;
   background-size: cover;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .grid-full {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .grid-product-full {
+    background: #f1f1f1;
+    display: flex;
+    position: relative;
+  }
 }/*# sourceMappingURL=styles.css.map */
